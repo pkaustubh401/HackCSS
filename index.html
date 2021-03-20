@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>HackCSS</title>
+</head>
+<body>
+    <div class="navbar">
+        <span class="logo">HackCSS</span>
+    </div>
+
+    <div class="posts">
+        <div id="post1" class="post post1">
+            <h3 class="postname">Navigation Bar</h3>
+            <div class="img-cont">
+                <video autoplay preload="true" loop>
+                    <source src="content/post1-prev1.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'> 
+            <div class="carousel-cell">
+                <div class="code">
+                    <div class="codeNav">
+                        <div class="circles">
+                            <div class="navcircle red"></div>
+                            <div class="navcircle yellow"></div>
+                            <div class="navcircle green"></div>
+                        </div>
+                        <div class="filetype">
+                            HTML
+                        </div>
+                        <button id="copy_button" class="btn">Copy </button>
+                    </div>
+                    <textarea id=code1 name="HTMLcode" readonly>
+                        <div class="container">
+                            <ul>
+                                <li><i class="fa fa-search" aria-hidden="true"></i>
+                                <span>ExpLore</span>
+                                </li>
+                            
+                                <li><i class="fa fa-home" aria-hidden="true"></i>
+                                <span>Home</span>
+                                </li>
+                            
+                                <li><i class="fa fa-comments" aria-hidden="true"></t>
+                                <span>Messages</span>
+                                </li>
+                            
+                                <li><i class="fa fa-user" aria-hidden="true"></t>
+                                <span>Profile</span>
+                                </li>      
+                            </ul>
+                            
+                        </div>
+                    </textarea>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="code">
+                    <div class="codeNav">
+                        <div class="circles">
+                            <div class="navcircle red"></div>
+                            <div class="navcircle yellow"></div>
+                            <div class="navcircle green"></div>
+                        </div>
+                        <div class="filetype">
+                            CSS
+                        </div>
+                        <button id="copy_button" class="btn">Copy </button>
+                    </div>
+                    <textarea id=code1 name="HTMLcode" readonly>
+                        *{
+                            margin : 0;
+                            padding : 0 ;
+                            box-sizing: border-box;
+                        }
+                            
+                        .container{
+                            position : absolute;
+                            top: 50%;
+                            left :50%
+                            transform:translate(-50%,-50%);
+                            width: 330px ;
+                            height :70px;
+                            background :#fff;
+                            box-shadow: 0 2px 4px rgba(0,0,0,.2),
+                            0 -1px 4px rgba(0,0,0,.2));
+                            overflow: hidden ;
+                            border-radius : 30px;
+                        }
+                            
+                        ul{
+                            list-style: none;
+                            height: 100%;
+                            display: flex;
+                            align-items : center ;
+                            justify-content : space-around ;
+                            
+                        }
+                            
+                        li{
+                            display: block;
+                            width : calc(330px /4);
+                            height : 70px ;
+                            text-align: center;
+                            line-height :70px;
+                        }
+                        
+                        .fa{
+                            font-size:1.3rem;
+                            transition : .5s;
+                        }
+                            
+                        span{
+                            display : block;
+                            font-size: .8rem;
+                            transform: translateY( -20px);
+                            transition: .5s cubic-bezier(.75,-1,0,1.15);
+                            }
+                            
+                        li: hover .fa{
+                            transform : translateY( -100px ) ;
+                        }
+                        
+                        li:hover span{
+                        transform : translateY( -70px ) ;
+                        }
+                            
+                    </textarea>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="post1" class="post post1">
+            <h3 class="postname">Navigation Bar 2</h3>
+            <div class="img-cont">
+                <video autoplay preload="true" loop>
+                    <source src="content/post1-prev1.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="carousel"
+                    data-flickity='{ "wrapAround": true }'> 
+                    <div class="carousel-cell">
+                        <div class="code">
+                            <div class="codeNav">
+                                <div class="circles">
+                                    <div class="navcircle red"></div>
+                                    <div class="navcircle yellow"></div>
+                                    <div class="navcircle green"></div>
+                                </div>
+                                <div class="filetype">
+                                    HTML
+                                </div>
+                                <button id="copy_button" class="btn">Copy </button>
+                            </div>
+                            <textarea id=code1 name="HTMLcode" readonly>
+                                <div class="container">
+                                    <ul>
+                                        <li><i class="fa fa-search" aria-hidden="true"></i>
+                                        <span>ExpLore</span>
+                                        </li>
+                                    
+                                        <li><i class="fa fa-home" aria-hidden="true"></i>
+                                        <span>Home</span>
+                                        </li>
+                                    
+                                        <li><i class="fa fa-comments" aria-hidden="true"></t>
+                                        <span>Messages</span>
+                                        </li>
+                                    
+                                        <li><i class="fa fa-user" aria-hidden="true"></t>
+                                        <span>Profile</span>
+                                        </li>      
+                                    </ul>
+                                    
+                                </div>
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="code">
+                            <div class="codeNav">
+                                <div class="circles">
+                                    <div class="navcircle red"></div>
+                                    <div class="navcircle yellow"></div>
+                                    <div class="navcircle green"></div>
+                                </div>
+                                <div class="filetype">
+                                    CSS
+                                </div>
+                                <button id="copy_button" class="btn">Copy </button>
+                            </div>
+                            <textarea id=code1 name="HTMLcode" readonly>
+                                *{
+                                    margin : 0;
+                                    padding : 0 ;
+                                    box-sizing: border-box;
+                                }
+                                    
+                                .container{
+                                    position : absolute;
+                                    top: 50%;
+                                    left :50%
+                                    transform:translate(-50%,-50%);
+                                    width: 330px ;
+                                    height :70px;
+                                    background :#fff;
+                                    box-shadow: 0 2px 4px rgba(0,0,0,.2),
+                                    0 -1px 4px rgba(0,0,0,.2));
+                                    overflow: hidden ;
+                                    border-radius : 30px;
+                                }
+                                    
+                                ul{
+                                    list-style: none;
+                                    height: 100%;
+                                    display: flex;
+                                    align-items : center ;
+                                    justify-content : space-around ;
+                                    
+                                }
+                                    
+                                li{
+                                    display: block;
+                                    width : calc(330px /4);
+                                    height : 70px ;
+                                    text-align: center;
+                                    line-height :70px;
+                                }
+                                
+                                .fa{
+                                    font-size:1.3rem;
+                                    transition : .5s;
+                                }
+                                    
+                                span{
+                                    display : block;
+                                    font-size: .8rem;
+                                    transform: translateY( -20px);
+                                    transition: .5s cubic-bezier(.75,-1,0,1.15);
+                                    }
+                                    
+                                li: hover .fa{
+                                    transform : translateY( -100px ) ;
+                                }
+                                
+                                li:hover span{
+                                transform : translateY( -70px ) ;
+                                }
+                                    
+                            </textarea>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
