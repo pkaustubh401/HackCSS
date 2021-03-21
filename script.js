@@ -22,7 +22,7 @@ for(var i=0, len=y.length|0; i<len; i=i+1|0){
         document.execCommand("copy");
       
         /* Alert the copied text */
-        alert("Copied the text: " + x.value);
+        alert("Copied to clipboard");
     };
 }
 
