@@ -1,18 +1,13 @@
 # HackCSS
 
-Are you a web developer
-struggling to indulge creativity in your website?
+* Are you a web developer struggling to indulge creativity in your website?
 
-Clients are bored to see the same bootstrap version
+* Clients are bored to see the same bootstrap version
 
 Then my friend your at the right place
-
-we at "HackCSS" work our best to provide you with super creative and trendy designs .
-
-Just one click and the code will be copied .
-Ready to use in your own project.
-
-without wasting much time on the small details.
+    we at "HackCSS" work our best to provide you with super creative and trendy designs.
+    Just one click and the code will be copied. Ready to use in your own project.
+    without wasting much time on the small details.
 
 
 #future Plans
